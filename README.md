@@ -19,3 +19,12 @@ Simplified Extended Kalman Filter Observer for SOC Estimation of Commercial Powe
     This work addressed these challenges with a novel combination of the extended Kalman filter (EKF) algorithm, a two-RC-block equivalent circuit and the traditional coulomb counting method. The simplified implementation of the EKF algorithm offers a computationally efficient option for runtime SOC evaluation on-board vehicles. The SOC estimation was validated with experimental data of a current profile contaminated with pseudo-random noise and with an offset in the initial condition. The model rapidly converged to within 4% of the true SOC even with imposed errors of 40% to initial SOC, 24% to current measurement and 6% to voltage measurement. 
 链接：https://xueshu.baidu.com/usercenter/paper/show?paperid=440a63e5b6a5f7aca0b6ec1ec372b6aa&site=xueshu_se
 卡尔曼滤波学习的网址：https://www.kalmanfilter.net/default.aspx
+2021年2月27日：细读Simplified Extended Kalman Filter Observer for SOC Estimation of Commercial Power-Oriented LFP Lithium Battery Cells文献
+
+2021年2月28日-2021年3月1日：翻阅资料找到适合电路模型的动态方程
+
+2021年3月2-3日：推算要使用的电池动态模型方程
+
+2021年3月4-5日：将电池的动态模型与Matlab中的目的方程相结合，并且寻找方法估算参数
+
+今天去医院检查了一下身体，所以完成的不多
